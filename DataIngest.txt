@@ -1,0 +1,10 @@
+List of commands for data ingest
+Current Directory, home in Peel
+
+[sa5064@hlog-2 ~]$ mkdir RealProject
+[sa5064@hlog-1 ~]$ cd RealProject
+[sa5064@hlog-1 RealProject]$ git clone https://github.com/statsbomb/open-data.git
+[sa5064@hlog-1 RealProject]$ hdfs dfs -put open-data Project/Data
+
+Note: I already created Project and Data with: hdfs dfs -mkdirs Project -mkdirs Project/Data but I could not delete them to rerun the whole analytic since it would delete parts of the project
+
