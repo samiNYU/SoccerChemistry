@@ -1,5 +1,5 @@
 Description of analytic:
-Here is an overview, the model is build on the following framework, VAEP score, where
+Here is an overview, the model is built on the following framework, VAEP score, where
 VAEP(event_i) = (Pr(score)_event_i - Pr(score)_event_(i-1)) - (Pr(concede)_event_i - Pr(concede)_event_(i-1))
 
 Where Pr(score)_event_i is the probability of scoring on event i. I felt that this framework was too oriented to scoring so I modified it slightly, to get
