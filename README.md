@@ -1,3 +1,5 @@
+This repository contains code from an analytic built to analyze the chemistry of a soccer team, chemistry scores between pairs of players on the same team are reported. For a detailed look at the motivation and development of this analytic please see this medium article: https://medium.com/@samiazim_66285/chemistry-in-soccer-4823f9818dfc
+
 Description of analytic:
 Here is an overview, the model is built on the following framework, VAEP score, where
 VAEP(event_i) = (Pr(score)_event_i - Pr(score)_event_(i-1)) - (Pr(concede)_event_i - Pr(concede)_event_(i-1))
